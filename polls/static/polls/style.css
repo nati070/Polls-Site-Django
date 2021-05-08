@@ -11,3 +11,120 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
 }
+h1{
+	position: relative;
+	top : 70px;
+	height: 180px;
+	width:500px;
+    margin: 0 auto;
+    text-align: center;
+	color:#4b53a0;
+	font-family:Arial;
+	font-size:60px;
+	font-weight:bold;
+}
+h2{
+	position: relative;
+	top : 70px;
+	height: 180px;
+	
+    margin: 0 auto;
+    text-align: center;
+	color:#4b53a0;
+	font-family:Arial;
+	font-size:60px;
+	font-weight:bold;
+}
+ul{
+	color: rgb(204, 17, 221);
+	width: 500px;
+	font-size:35px;
+	position: relative;
+	left:37%;
+}
+
+  
+
+a.myButton {
+	width: 350px;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	position: relative;
+}
+a.myButton:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+a.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#ansButton{
+	width: 350px;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	position: relative;
+	left:37%;
+}
+#ansButton:hover{
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+#ansButton:active {
+	position:relative;
+	top:1px;
+}
+#voteAgainButton{
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #c91edf 5%, #503512 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#32b13c;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0e0a0a;
+	position: relative;
+	left:60%;
+}
+#voteAgainButton:hover{
+	background:linear-gradient(to bottom, #442336 5%, #603e63 100%);
+	background-color:#dfdfdf;
+}
+
+#voteAgainButton:active {
+	position:relative;
+	top:1px;
+}
+
+
