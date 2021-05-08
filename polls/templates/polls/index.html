@@ -1,10 +1,14 @@
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
 
+<h1> Choose Poll </h1>
+
+
+
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}
-       <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+       <p><a href="{% url 'polls:detail' question.id %}" class="myButton" >{{ question.question_text }}</a></p>
     {% endfor %}
     </ul>
 {% else %}
