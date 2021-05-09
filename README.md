@@ -1,5 +1,3 @@
-# mysite
-
 
 Polls
 =====
