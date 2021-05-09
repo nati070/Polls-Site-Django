@@ -12,4 +12,4 @@ simple web view:
 
 
 
-  ![alt text](vote_choose.PNG)
+  ![alt text](simple_web_pic.png)
