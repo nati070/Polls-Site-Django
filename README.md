@@ -8,4 +8,4 @@ visitors can choose between a fixed number of answers.
 Detailed documentation is in the "docs" directory.
 
 simple web view:
-  ![alt text](mysite/vote_choose.PNG)
+  ![alt text](vote_choose.PNG)
